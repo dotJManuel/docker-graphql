@@ -29,8 +29,8 @@ jobs:
       run: |
         docker build -t dotjmanuel/docker-graphql:0.0.2 . 
     
-    - name: Push Docker Iamge
-       run: |
+    - name: Push Docker Image
+     run: |
         docker push dotjmanuel/docker-graphql:0.0.2 . 
 
 
